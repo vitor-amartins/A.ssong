@@ -1,4 +1,4 @@
-#include "Songs/Father_Of_The_Wolf_part02.h" //Put the name of your song file here
+#include "song.h" //Put the name of your song file here
 
 #define fstLed 6
 #define sndLed 5
