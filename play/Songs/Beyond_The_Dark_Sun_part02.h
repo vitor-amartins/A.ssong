@@ -1,4 +1,4 @@
-#include "notes.h"
+#include "../notes.h"
 
 #define SIXTEENTH 71
 #define NumNotas 213
