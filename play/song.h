@@ -1,15 +1,14 @@
 #include "notes.h"
 
-#define SIXTEENTH 71
-#define NumNotas 10
+#define SIXTEENTH 150 //Generally you can divide 15000 by the tempo of the song
+#define NumNotas 12
 
 short int tune[] = {
 //Put the notes here
-NOTE_F5, NOTE_F5, NOTE_F5, NOTE_E5, NOTE_D5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_D5, NOTE_C5
+NO_NOTE, NOTE_G5, NOTE_A5, NOTE_F5, NO_NOTE, NOTE_G5, NO_NOTE, NOTE_G5, NOTE_A5, NOTE_F5, NO_NOTE, NOTE_G5
 };
 
 short int duration[] = {
 //Put the duration of the note here
-QUARTER, EIGHTH, QUARTER, EIGHTH, QUARTER, QUARTER, EIGHTH, QUARTER, EIGHTH, QUARTER
+EIGHTH, EIGHTH, SIXTEENTH, SIXTEENTH, SIXTEENTH, SIXTEENTH+HALF, EIGHTH, EIGHTH, SIXTEENTH, SIXTEENTH, SIXTEENTH, SIXTEENTH+HALF
 };
-
