@@ -30,7 +30,7 @@ allDurations = []
 n = 0
 
 for line in fIn:
-  if len(line) > 2:
+  if len(line) > 2 and line[0] != '#':
     n += 1
     line = line.upper()
     note = line.split(' ')
